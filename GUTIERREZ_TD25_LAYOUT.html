@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout 1</title>
+<style type="text/css">
+       * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+       #logo-div {
+           width: 50%;
+           min-height: 50px;
+           font-weight: bold;
+           float: left;
+           background-color: lightgray;
+           padding-left: 2%;
+           line-height: 50px;
+       }
+       #nav-div {
+           width: 50%;
+           text-align: right;
+           float: right;
+           background-color: lightgray;
+           padding-right: 2%;
+           line-height: 50px;
+           margin-bottom: 10px;
+       }
+       #header-banner-div {
+           clear: both;
+           width: 100%;
+           min-height: 100px;
+           background-color: lightgray;
+           text-align: center;
+           line-height: 100px;
+           margin-bottom: 10px;
+       }
+       #intro-text-div {
+           width: 100%;
+           min-height: 50px;
+           background-color: lightgray;
+           text-align: center;
+           line-height: 50px;
+           margin-bottom: 10px;
+       }
+       #main-div {
+           display: flex;
+           justify-content: space-around;
+           margin-bottom: 10px;
+       }
+       .box {
+           width: 30%;
+           min-height: 300px;
+           background-color: lightgray;
+           text-align: center;
+           line-height: 200px;
+           margin-bottom: 10px;
+       }
+       #footer-div {
+           width: 100%;
+           min-height: 50px;
+           background-color: lightgray;
+           text-align: center;
+           line-height: 50px;
+       }
+</style>
+</head>
+<body>
+<div id="wrapper-div">
+<div id="logo-div">
+           Logo
+</div>
+<div id="nav-div">
+           Navigation
+</div>
+<div id="header-banner-div">
+           Header / Banner
+</div>
+<div id="intro-text-div">
+           Intro Text Area
+</div>
+<div id="main-div">
+<div class="box">Box 1</div>
+<div class="box">Box 2</div>
+<div class="box">Box 3</div>
+</div>
+<div id="footer-div">
+           Footer
+</div>
+</div>
+</body>
+</html>
